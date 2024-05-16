@@ -7,6 +7,12 @@ let campus = {
 	lat: 139.28201056633
 };
 
+    console.log(campus.address);
+for(let n of campus.buildingD){
+	console.log(n);
+
+}
+
 let gakka = [
 	{name: "機械システム工学科", ename: "Department of Mechanical Systems Engineering"},
 	{name: "電子システム工学科", ename: "Department of Electronics and Computer Systems"},
@@ -14,5 +20,8 @@ let gakka = [
 	{name: "デザイン学科", ename: "Department of Design"}
 ];
 
-//////////////// ここから下にプログラムを書きたそう!
+for(let n of gakka.name){
+	console.log(gakka.name[n]);
+}
 
+//////////////// ここから下にプログラムを書きたそう!
