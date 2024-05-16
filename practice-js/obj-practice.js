@@ -20,8 +20,8 @@ let gakka = [
 	{name: "デザイン学科", ename: "Department of Design"}
 ];
 
-for(let n of gakka.name){
-	console.log(gakka.name[n]);
+for(let s of gakka){
+	console.log(s.name);
 }
 
 //////////////// ここから下にプログラムを書きたそう!
