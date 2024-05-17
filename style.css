@@ -1,25 +1,29 @@
 p{
-    color:navy;
+    color:rgba(215, 129, 67, 0.924);
 }
 
 h1{
     text-shadow:
     -1px -1px 1px #aaa,
-    0px 4px 1px rgba(0,0,0,0.5),
-    4px 4px 5px rgba(0,0,0,0.7),
-    0px 0px 7px rgba(0,0,0,0.4);
+    0px 4px 1px rgba(116, 143, 235, 0.5),
+    4px 4px 5px rgba(108, 134, 199, 0.7),
+    0px 0px 7px rgba(97, 89, 179, 0.415);
 
-    background-color:yellow;
+    background-color:rgb(226, 226, 140);
 
-text-align: center;    
+    text-align: center;
+  
+    border: thick double rgb(205, 69, 205)
 }
 
 h2{
-    color:fuchsia;
+    color:lightpink;
     text-align: center;
+    background-color: rgba(61, 62, 62, 0.599);
 }
 
 h3{
     text-align: center;
-    color:red;
+    color:rgb(216, 107, 107);
+    background-color: rgba(192, 247, 138, 0.742);
 }
