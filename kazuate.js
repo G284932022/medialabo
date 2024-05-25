@@ -15,7 +15,7 @@ function hantei() {
   
   // kotae と yoso が一致するかどうか調べて結果を出力
   if(kotae === yoso){
-    resultElement.textContent = '正解です.おめでとう!';
+    resultElement.textContent = '正解です．おめでとう!';
   }else{
     kaisu++;
 
@@ -24,7 +24,7 @@ function hantei() {
     resultElement.textContent = kaisu + '回目の予想: ' + yoso;
 
     if (kaisu === 3) {
-      resultElement.textContent = ' まちがい．残念でした。答えは ' + kotae + ' です．';
+      resultElement.textContent = ' まちがい．残念でした．答えは ' + kotae + ' です．';
     } else if (kaisu >= 4) {
       resultElement.textContent = ' 答えは ' + kotae + ' でした．すでにゲームは終わっています';
     } else {
