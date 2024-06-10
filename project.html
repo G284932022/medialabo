@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>プロジェクト課題</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
-        <script src="ajax-demo.js" defer></script>
-        <script src="project.js" defer></script>
-    </head>
-    <body>
-        <h1>天気</h1>
-    <label for="tosi">都市を選んでください</label>
-    <select name="tosi" id="tosi">
-        <option value="">選択してください</option>
-        <option value="tokyo">東京</option>
-        <option value="newyork">ニューヨーク</option>
-        <option value="rondon">ロンドン</option>
-    </select>
-    <button id="btn">決定</button>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <title>世界の天気</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <h1>世界の天気</h1>
+  <label for="search">都市名:</label>
+  <input type="text" id="search">
+  <button id="searchButton">検索</button>
+  <div id="result"></div>
+ 
+  <script src="weather.js" defer></script>
+</body>
 </html>
