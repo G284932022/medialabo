@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(186, 246, 246);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: coral;
+}
+
+h2{
+    color: green;
+}
+
+label{
+    color: coral;
+}
+
+.a{
+    font-size: small;
+    color: blue;
+}
+
+p{
+    color: teal;
+}
+
+p1{
+    font-size: x-large;
+    color: crimson;
+}
+

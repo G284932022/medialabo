@@ -59,5 +59,6 @@ function displayWeather(data) {
     <p>湿度: ${data.main.humidity} %</p>
     <p>風速: ${data.wind.speed} m/s</p>
     <p>風向: ${data.wind.deg} °</p>
+    <p1>今日も元気に過ごしていきましょう！</p1>
   `;
 }
