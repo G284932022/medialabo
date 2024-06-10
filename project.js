@@ -20,7 +20,7 @@ function searchWeather() {
         resultDiv.innerHTML = `<p>${error.message}</p>`;
       });
   } else {
-    console.log('都市名が正しくありません。');
+    console.log('都市名が正しくありません。もう1度やり直してください。');
   }
 }
 
